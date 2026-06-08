@@ -29,7 +29,11 @@ function NoteCard({ note, onOpen, onDelete }) {
         border: `1px solid ${color.accent}33`,
         borderLeft: `3px solid ${color.accent}`,
         borderRadius: "12px",
-        padding: "48px 16px 14px",
+        padding: "14px 16px",
+paddingTop: "env(safe-area-inset-top, 14px)",
+borderBottom: "1px solid #1e1e2e",
+background: "#0d0d1a",
+
         marginBottom: "10px",
         cursor: "pointer",
         position: "relative",
